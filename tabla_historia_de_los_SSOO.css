@@ -1,0 +1,182 @@
+* {
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: white;
+}
+
+header, h2{
+    width: 100%;
+    height: 100px;
+    background-color: #1c1919;
+    text-align: center;
+    color: rgba(245, 245, 220, 0.783);
+    font-size: 2.5em;
+    font-weight: bolder;
+    text-transform: capitalize;
+    margin: 0 0 2cm;
+    line-height: 100px
+}
+
+body {
+    width: 80vw;
+    height: fit-content;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #262424;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 55px;
+    background-color: rgb(0, 0, 0);
+    margin-bottom: 1cm;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    justify-content:flex-start;  
+    list-style: none; 
+}
+
+li {
+    margin-right: 10px;
+    padding: 0;
+}
+
+
+a {
+    text-decoration: none;
+    color: gray;
+    font: 1.2em sans-serif;
+    font-weight: 600;
+    list-style: none;
+    padding: 10px;
+    transition: 300ms ease;
+}
+
+a:hover {
+    color:  rgb(7, 107, 102);
+    border-bottom: 3px solid  rgb(7, 107, 102);
+}
+
+
+.main {
+    width: 100%;
+    height: 100vh;
+    background-color: #262424;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 10px auto;
+    border: 2px solid #000;
+}
+
+th {
+    font-size: 1.5em;
+    padding: 10px;
+    background-color: rgb(7, 107, 102);
+    border: 2px solid #000;
+}
+
+td {
+    font: 1.2em 'Roboto';
+    padding: 10px;
+    background-color: rgb(68, 163, 159);
+    border: 1px solid #000;
+}
+
+.fig_123 {
+    background-color: #222020;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    overflow:auto;
+}
+
+.fig_123::-webkit-scrollbar {
+    width: 15px;
+}
+
+.fig_123::-webkit-scrollbar-thumb {
+    border: 0px solid transparent;
+    border-radius: 100vw;
+    background: linear-gradient(#978c8c, rgb(68, 163, 159));
+    filter:drop-shadow(10px);
+    margin-block: 0.2cm;
+}
+
+.fig_123::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient( rgb(48, 124, 120), #5a5353);
+    filter:drop-shadow(10px);
+}
+
+.fig_123::-webkit-scrollbar-track {
+    border-radius: 100vw;
+    background-color: #474545;
+    margin-block: 0.4cm;
+    padding-block: 0.3cm;
+}
+
+figure {
+    margin-bottom: 1.5cm;
+}
+
+figcaption {
+    text-align: center;
+    margin-top: 0.2cm;
+    font: 1.3em sans-serif;
+    font-weight: 600;
+    color: blanchedalmond;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: 1.3em sans-serif;
+    font-weight: 600;
+    margin-top: 2cm;
+    height: 30vh;
+    width: 100%;
+    background-color: #1c1919;
+}
+
+footer > div {
+    width: 90%;
+    height: 20vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer div > section {
+    height: 20vh;
+    text-align: left;
+    color: #ffffffb9;
+}
+
+footer > figure {
+    height: 20vh;
+}
+
+footer > figure > img {
+    width: 80%;
+}
+
+span {
+    text-decoration: underline;
+    color: gray;
+}
